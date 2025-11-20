@@ -2,20 +2,11 @@
   "properties": {
     "path": "brands/leisure/dog_park",
     "exclude": {
-      "generic": ["^(area cani|dog park)$"]
+      "generic": ["^(area cani|dog park)$"],
+      "named": ["^bark park$"]
     }
   },
   "items": [
-    {
-      "displayName": "Bark Park",
-      "id": "barkpark-a82738",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "brand": "Bark Park",
-        "leisure": "dog_park",
-        "name": "Bark Park"
-      }
-    },
     {
       "displayName": "Kamp K9",
       "id": "kampk9-92ff81",
@@ -26,6 +17,16 @@
         "brand:wikidata": "Q16988635",
         "leisure": "dog_park",
         "name": "Kamp K9"
+      }
+    },
+    {
+      "displayName": "Love's",
+      "id": "loves-f205b8",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "leisure": "dog_park"
       }
     }
   ]

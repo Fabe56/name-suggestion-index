@@ -19,8 +19,8 @@
     },
     {
       "displayName": "Comtesse du Barry",
-      "id": "comtessedubarry-bbd711",
-      "locationSet": {"include": ["fr"]},
+      "id": "comtessedubarry-ab8cdd",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Comtesse du Barry",
         "brand:wikidata": "Q17176547",
@@ -138,6 +138,23 @@
         "brand:wikidata": "Q115656510",
         "cuisine": "russian",
         "name": "Берёзка",
+        "shop": "deli"
+      }
+    },
+    {
+      "displayName": "ვაკე",
+      "id": "vake-e0f2d7",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "brand": "ვაკე",
+        "brand:en": "Vake",
+        "brand:ka": "ვაკე",
+        "brand:ru": "Ваке",
+        "brand:wikidata": "Q131469989",
+        "name": "ვაკე",
+        "name:en": "Vake",
+        "name:ka": "ვაკე",
+        "name:ru": "Ваке",
         "shop": "deli"
       }
     },

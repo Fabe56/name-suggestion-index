@@ -22,6 +22,49 @@
       }
     },
     {
+      "displayName": "Frank Webb Home",
+      "id": "frankwebbhome-f64940",
+      "locationSet": {
+        "include": [
+          "us-ct.geojson",
+          "us-ma.geojson",
+          "us-me.geojson",
+          "us-nh.geojson",
+          "us-nj.geojson",
+          "us-ny.geojson",
+          "us-pa.geojson",
+          "us-ri.geojson",
+          "us-vt.geojson"
+        ]
+      },
+      "matchNames": [
+        "f.w. webb home",
+        "frank webb's bath center"
+      ],
+      "matchTags": [
+        "shop/kitchen",
+        "shop/lighting"
+      ],
+      "tags": {
+        "brand": "Frank Webb Home",
+        "brand:wikidata": "Q135303526",
+        "name": "Frank Webb Home",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
+      "displayName": "Kohler",
+      "id": "kohler-89347c",
+      "locationSet": {"include": ["001"]},
+      "matchTags": ["shop/kitchen"],
+      "tags": {
+        "brand": "Kohler",
+        "brand:wikidata": "Q6426036",
+        "name": "Kohler",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
       "displayName": "Sani-Dump",
       "id": "sanidump-ac38ee",
       "locationSet": {"include": ["bg"]},
@@ -44,6 +87,22 @@
       }
     },
     {
+      "displayName": "X2O",
+      "id": "x2o-caedbb",
+      "locationSet": {"include": ["be"]},
+      "matchNames": ["x²o", "x2o badkamers"],
+      "matchTags": [
+        "shop/furniture",
+        "shop/kitchen"
+      ],
+      "tags": {
+        "brand": "X2O",
+        "brand:wikidata": "Q126165101",
+        "name": "X2O",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
       "displayName": "Баня Стил",
       "id": "d84984-ac38ee",
       "locationSet": {"include": ["bg"]},
@@ -51,6 +110,26 @@
         "brand": "Баня Стил",
         "brand:wikidata": "Q123002946",
         "name": "Баня Стил",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
+      "displayName": "Роскедр",
+      "id": "fb8660-1e460e",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Роскедр",
+        "name": "Роскедр",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
+      "displayName": "Сантехника-Онлайн",
+      "id": "74b471-1e460e",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Сантехника-Онлайн",
+        "name": "Сантехника-Онлайн",
         "shop": "bathroom_furnishing"
       }
     }

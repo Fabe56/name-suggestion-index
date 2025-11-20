@@ -5,6 +5,38 @@
   },
   "items": [
     {
+      "displayName": "Blue Style",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": ["ck blue style", "bluestyle"],
+      "tags": {
+        "brand": "Blue Style",
+        "brand:wikidata": "Q58196638",
+        "name": "Blue Style",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "Exim tours",
+      "locationSet": {"include": ["cz", "pl"]},
+      "tags": {
+        "brand": "Exim tours",
+        "brand:wikidata": "Q136690727",
+        "name": "Exim tours",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "Fischer",
+      "locationSet": {"include": ["cz", "sk"]},
+      "matchNames": ["ck fischer"],
+      "tags": {
+        "brand": "Fischer",
+        "brand:wikidata": "Q131872402",
+        "name": "Fischer",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "ADAC Geschäftsstelle",
       "id": "adacgeschaftsstelle-3ea820",
       "locationSet": {"include": ["de"]},
@@ -126,14 +158,31 @@
       }
     },
     {
-      "displayName": "DER Reisebüro",
-      "id": "derreiseburo-3ea820",
+      "displayName": "Derpart Reisebüro",
+      "id": "derpartreiseburo-3ea820",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["der deutsches reisebüro"],
+      "preserveTags": ["^name"],
       "tags": {
-        "brand": "DER Reisebüro",
+        "brand": "Derpart Reisebüro",
+        "brand:wikidata": "Q1200317",
+        "name": "Derpart Reisebüro",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "Dertour Reisebüro",
+      "id": "dertourreiseburo-3ea820",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "der deutsches reisebüro",
+        "der reisebüro",
+        "dertour"
+      ],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Dertour Reisebüro",
         "brand:wikidata": "Q56729186",
-        "name": "DER Reisebüro",
+        "name": "Dertour Reisebüro",
         "shop": "travel_agency"
       }
     },
@@ -188,8 +237,8 @@
     },
     {
       "displayName": "Fram",
-      "id": "fram-9ff76a",
-      "locationSet": {"include": ["fr"]},
+      "id": "fram-94396d",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Fram",
         "brand:wikidata": "Q3063398",
@@ -309,6 +358,7 @@
         "name": "JTB",
         "official_name": "日本交通公社",
         "official_name:en": "Japan Travel Bureau",
+        "official_name:ja": "日本交通公社",
         "shop": "travel_agency"
       }
     },
@@ -379,17 +429,6 @@
       }
     },
     {
-      "displayName": "Neckermann Reisen",
-      "id": "neckermannreisen-3ea820",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "brand": "Neckermann Reisen",
-        "brand:wikidata": "Q17300280",
-        "name": "Neckermann Reisen",
-        "shop": "travel_agency"
-      }
-    },
-    {
       "displayName": "Nouvelles Frontières",
       "id": "nouvellesfrontieres-9ff76a",
       "locationSet": {"include": ["fr"]},
@@ -401,9 +440,19 @@
       }
     },
     {
+      "displayName": "Pac Group",
+      "id": "pacgroup-8106f1",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Pac Group",
+        "name": "Pac Group",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "Promovacances",
-      "id": "promovacances-9ff76a",
-      "locationSet": {"include": ["fr"]},
+      "id": "promovacances-94396d",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Promovacances",
         "brand:wikidata": "Q3407444",
@@ -457,6 +506,17 @@
       }
     },
     {
+      "displayName": "Selectair",
+      "id": "selectair-36513c",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "brand": "Selectair",
+        "brand:wikidata": "Q126197215",
+        "name": "Selectair",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "Selectour",
       "id": "selectour-9ff76a",
       "locationSet": {"include": ["fr"]},
@@ -501,6 +561,17 @@
       }
     },
     {
+      "displayName": "Ticket",
+      "locationSet": {"include": ["no", "se"]},
+      "matchNames": ["ticket reisebyrå"],
+      "tags": {
+        "brand": "Ticket",
+        "brand:wikidata": "Q18333894",
+        "name": "Ticket",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "TIP travel",
       "id": "tiptravel-1d4025",
       "locationSet": {"include": ["sk"]},
@@ -512,12 +583,35 @@
       }
     },
     {
+      "displayName": "Transat Travel",
+      "id": "transattravel-e33da3",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "brand": "Transat Travel",
+        "brand:wikidata": "Q133255985",
+        "name": "Transat Travel",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "Travelplanet.pl",
+      "id": "travelplanetpl-68492b",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Travelplanet.pl",
+        "brand:wikidata": "Q9361373",
+        "name": "Travelplanet.pl",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "TUI (Group)",
       "id": "tui-b6aae0",
       "locationSet": {
         "include": ["001"],
         "exclude": ["gb"]
       },
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "TUI",
         "brand:wikidata": "Q573103",
@@ -583,6 +677,17 @@
       }
     },
     {
+      "displayName": "Viagens Abreu",
+      "id": "viagensabreu-360689",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "brand": "Viagens Abreu",
+        "brand:wikidata": "Q7924457",
+        "name": "Viagens Abreu",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "Viajes El Corte Inglés",
       "id": "viajeselcorteingles-d900b5",
       "locationSet": {
@@ -621,7 +726,7 @@
       }
     },
     {
-      "displayName": "Your Coop Travel",
+      "displayName": "Your Coop Travel (Midcounties Co-operative)",
       "id": "yourcooptravel-61ce41",
       "locationSet": {"include": ["gb-eng"]},
       "matchNames": ["the co-operative travel"],
@@ -629,13 +734,15 @@
         "brand": "Your Coop Travel",
         "brand:wikidata": "Q7726526",
         "name": "Your Coop Travel",
+        "operator": "Midcounties Co-operative",
+        "operator:wikidata": "Q6841138",
         "shop": "travel_agency"
       }
     },
     {
       "displayName": "Магазин Горящих Путёвок",
-      "id": "c5396b-9aaf3f",
-      "locationSet": {"include": ["001"]},
+      "id": "c5396b-8106f1",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Магазин Горящих Путёвок",
         "name": "Магазин Горящих Путёвок",
@@ -674,6 +781,23 @@
       }
     },
     {
+      "displayName": "可樂旅遊",
+      "id": "colatour-6e2961",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "brand": "可樂旅遊",
+        "brand:en": "Cola Tour",
+        "brand:wikidata": "Q126898686",
+        "brand:zh": "可樂旅遊",
+        "name": "可樂旅遊",
+        "name:en": "Cola Tour",
+        "name:zh": "可樂旅遊",
+        "official_name": "可樂旅遊旅行社",
+        "official_name:zh": "可樂旅遊旅行社",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "日本旅行",
       "id": "nippontravelagency-4b4d86",
       "locationSet": {"include": ["jp"]},
@@ -696,6 +820,38 @@
       }
     },
     {
+      "displayName": "易遊網",
+      "id": "eztravel-6e2961",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "brand": "易遊網",
+        "brand:en": "ezTravel",
+        "brand:wikidata": "Q68541676",
+        "brand:zh": "易遊網",
+        "name": "易遊網",
+        "name:en": "ezTravel",
+        "name:zh": "易遊網",
+        "official_name": "易遊網旅行社",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "東南旅行社",
+      "id": "southeasttravel-6e2961",
+      "locationSet": {"include": ["tw"]},
+      "matchNames": ["set"],
+      "tags": {
+        "brand": "東南旅行社",
+        "brand:en": "South East Travel",
+        "brand:wikidata": "Q11103143",
+        "brand:zh": "東南旅行社",
+        "name": "東南旅行社",
+        "name:en": "South East Travel",
+        "name:zh": "東南旅行社",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "近畿日本ツーリスト",
       "id": "knt-4b4d86",
       "locationSet": {"include": ["jp"]},
@@ -708,6 +864,23 @@
         "name:en": "KNT",
         "name:ja": "近畿日本ツーリスト",
         "official_name:en": "Kinki Nippon Tourist",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "displayName": "雄獅旅遊",
+      "id": "liontravel-6e2961",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "brand": "雄獅旅遊",
+        "brand:en": "Lion Travel",
+        "brand:wikidata": "Q10565787",
+        "brand:zh": "雄獅旅遊",
+        "name": "雄獅旅遊",
+        "name:en": "Lion Travel",
+        "name:zh": "雄獅旅遊",
+        "official_name": "雄獅旅行社",
+        "official_name:zh": "雄獅旅行社",
         "shop": "travel_agency"
       }
     }

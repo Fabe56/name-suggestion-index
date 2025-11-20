@@ -7,6 +7,17 @@
   },
   "items": [
     {
+      "displayName": "99rent",
+      "id": "99rent-f36412",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "car_rental",
+        "brand": "99rent",
+        "brand:wikidata": "Q126194789",
+        "name": "99rent"
+      }
+    },
+    {
       "displayName": "ADA",
       "id": "ada-d9531a",
       "locationSet": {"include": ["001"]},
@@ -120,6 +131,21 @@
       }
     },
     {
+      "displayName": "CICAR",
+      "id": "cicar-d3ef0c",
+      "locationSet": {"include": ["es"]},
+      "matchNames": [
+        "cabrera medina",
+        "canary islands car"
+      ],
+      "tags": {
+        "amenity": "car_rental",
+        "brand": "CICAR",
+        "brand:wikidata": "Q126181047",
+        "name": "CICAR"
+      }
+    },
+    {
       "displayName": "Dollar Car Rental",
       "id": "dollarcarrental-d50162",
       "locationSet": {"include": ["us"]},
@@ -159,6 +185,19 @@
       }
     },
     {
+      "displayName": "Enterprise GO",
+      "id": "enterprisego-145c5e",
+      "locationSet": {"include": ["ch"]},
+      "matchNames": ["enterprise car rental"],
+      "tags": {
+        "amenity": "car_rental",
+        "brand": "Enterprise GO",
+        "brand:wikidata": "Q130467239",
+        "operator": "Helvetic Motion AG",
+        "supervised": "no"
+      }
+    },
+    {
       "displayName": "Euromobil",
       "id": "euromobil-76827b",
       "locationSet": {"include": ["nl"]},
@@ -186,10 +225,10 @@
     {
       "displayName": "Europcar (Scandinavia)",
       "id": "europcar-95cde7",
+      "issues": [5500],
       "locationSet": {
         "include": ["dk", "fi", "no", "se"]
       },
-      "note": "https://github.com/osmlab/name-suggestion-index/issues/5500",
       "preserveTags": ["^name"],
       "tags": {
         "amenity": "car_rental",
@@ -285,6 +324,17 @@
       }
     },
     {
+      "displayName": "Opel Rent",
+      "id": "opelrent-608338",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "car_rental",
+        "brand": "Opel Rent",
+        "brand:wikidata": "Q40966",
+        "name": "Opel Rent"
+      }
+    },
+    {
       "displayName": "Payless",
       "id": "payless-d9531a",
       "locationSet": {"include": ["001"]},
@@ -321,15 +371,26 @@
       }
     },
     {
-      "displayName": "SIXT",
+      "displayName": "Rent A Car",
+      "id": "rentacar-8fb45c",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "amenity": "car_rental",
+        "brand": "Rent A Car",
+        "brand:wikidata": "Q3425574",
+        "name": "Rent A Car"
+      }
+    },
+    {
+      "displayName": "Sixt",
       "id": "sixt-d9531a",
       "locationSet": {"include": ["001"]},
       "matchNames": ["sixt rent a car"],
       "tags": {
         "amenity": "car_rental",
-        "brand": "SIXT",
+        "brand": "Sixt",
         "brand:wikidata": "Q705664",
-        "name": "SIXT"
+        "name": "Sixt"
       }
     },
     {
@@ -391,6 +452,17 @@
         "brand:wikidata": "Q123005345",
         "name": "U-Save",
         "official_name": "U-Save Car & Truck Rental"
+      }
+    },
+    {
+      "displayName": "Ucar",
+      "id": "ucar-8fb45c",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "amenity": "car_rental",
+        "brand": "Ucar",
+        "brand:wikidata": "Q128907127",
+        "name": "Ucar"
       }
     },
     {

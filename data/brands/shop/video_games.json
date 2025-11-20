@@ -33,7 +33,22 @@
       }
     },
     {
-      "displayName": "EB Games (AU/NZ)",
+      "displayName": "EB Games (Canada)",
+      "id": "ebgames-3d1279",
+      "locationSet": {"include": ["ca"]},
+      "matchNames": [
+        "electronics boutique / eb games",
+        "gamestop"
+      ],
+      "tags": {
+        "brand": "EB Games",
+        "brand:wikidata": "Q135656622",
+        "name": "EB Games",
+        "shop": "video_games"
+      }
+    },
+    {
+      "displayName": "EB Games (Oceania)",
       "id": "ebgames-be6d96",
       "locationSet": {"include": ["au", "nz"]},
       "matchNames": [
@@ -42,20 +57,6 @@
       "tags": {
         "brand": "EB Games",
         "brand:wikidata": "Q5322604",
-        "name": "EB Games",
-        "shop": "video_games"
-      }
-    },
-    {
-      "displayName": "EB Games (Canada)",
-      "id": "ebgames-3d1279",
-      "locationSet": {"include": ["ca"]},
-      "matchNames": [
-        "electronics boutique / eb games"
-      ],
-      "tags": {
-        "brand": "EB Games",
-        "brand:wikidata": "Q4993686",
         "name": "EB Games",
         "shop": "video_games"
       }
@@ -83,9 +84,28 @@
       }
     },
     {
+      "displayName": "Gamelife",
+      "id": "gamelife-17c490",
+      "locationSet": {"include": ["it"]},
+      "matchNames": ["gamestop"],
+      "tags": {
+        "brand": "Gamelife",
+        "brand:wikidata": "Q105713299",
+        "name": "Gamelife",
+        "shop": "video_games"
+      }
+    },
+    {
       "displayName": "GameStop",
-      "id": "gamestop-1ff495",
-      "locationSet": {"include": ["001"]},
+      "id": "gamestop-90cbab",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["au", "ca", "it", "nz"]
+      },
+      "matchNames": [
+        "eb games",
+        "electronics boutique / eb games"
+      ],
       "tags": {
         "brand": "GameStop",
         "brand:wikidata": "Q202210",
@@ -95,8 +115,11 @@
     },
     {
       "displayName": "Micromania",
-      "id": "micromania-c9f0c8",
-      "locationSet": {"include": ["fr"]},
+      "id": "micromania-bf0c2b",
+      "issues": [10300],
+      "locationSet": {"include": ["fx"]},
+      "note": "Micromania also has small sub-brands",
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "Micromania",
         "brand:wikidata": "Q3312221",

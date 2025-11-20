@@ -1,7 +1,12 @@
 {
   "properties": {
     "path": "operators/route/tracks",
-    "exclude": {"generic": ["^railway|tracks?$"]}
+    "exclude": {
+      "generic": ["^(railway|tracks?)$"],
+      "named": [
+        "(db netz|db infrago|db station|deutsche bahn)"
+      ]
+    }
   },
   "items": [
     {
@@ -21,16 +26,6 @@
       "locationSet": {"include": ["ro"]},
       "tags": {
         "operator": "CFR Infrastructură",
-        "route": "tracks"
-      }
-    },
-    {
-      "displayName": "DB Netz AG",
-      "id": "dbnetzag-7a762a",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "operator": "DB Netz AG",
-        "operator:wikidata": "Q896765",
         "route": "tracks"
       }
     },
@@ -63,6 +58,7 @@
       "locationSet": {"include": ["hr"]},
       "tags": {
         "operator": "HŽ Infrastruktura",
+        "operator:wikidata": "Q102035872",
         "route": "tracks"
       }
     },
@@ -88,13 +84,22 @@
       }
     },
     {
-      "displayName": "PKP Polskie Linie Kolejowe S.A.",
-      "id": "pkppolskieliniekolejowesa-3a0b03",
+      "displayName": "PKP Polskie Linie Kolejowe",
+      "id": "pkppolskieliniekolejowe-3a0b03",
       "locationSet": {"include": ["pl"]},
       "matchNames": ["pkp plk"],
       "tags": {
-        "operator": "PKP Polskie Linie Kolejowe S.A.",
+        "operator": "PKP Polskie Linie Kolejowe",
         "operator:wikidata": "Q1344677",
+        "route": "tracks"
+      }
+    },
+    {
+      "displayName": "PKP Polskie Linie Kolejowe S.A.",
+      "id": "pkppolskieliniekolejowesa-5e3d05",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "operator": "PKP Polskie Linie Kolejowe S.A.",
         "route": "tracks"
       }
     },
@@ -149,6 +154,17 @@
       "tags": {
         "operator": "SŽ Infrastruktura",
         "operator:wikidata": "Q101424662",
+        "route": "tracks"
+      }
+    },
+    {
+      "displayName": "Železnice Slovenskej republiky",
+      "id": "zelezniceslovenskejrepubliky-5c437f",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "operator": "Železnice Slovenskej republiky",
+        "operator:short": "ŽSR",
+        "operator:wikidata": "Q393524",
         "route": "tracks"
       }
     }

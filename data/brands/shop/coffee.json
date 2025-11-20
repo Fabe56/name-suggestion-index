@@ -40,6 +40,23 @@
       }
     },
     {
+      "displayName": "მეამა",
+      "id": "meama-06d40a",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "brand": "მეამა",
+        "brand:en": "Meama",
+        "brand:ka": "მეამა",
+        "brand:ru": "Меама",
+        "brand:wikidata": "Q99850395",
+        "name": "მეამა",
+        "name:en": "Meama",
+        "name:ka": "მეამა",
+        "name:ru": "Меама",
+        "shop": "coffee"
+      }
+    },
+    {
       "displayName": "カルディコーヒーファーム",
       "id": "kaldicoffeefarm-e1062f",
       "locationSet": {"include": ["jp"]},
@@ -47,7 +64,7 @@
         "brand": "カルディコーヒーファーム",
         "brand:en": "Kaldi Coffee Farm",
         "brand:ja": "カルディコーヒーファーム",
-        "brand:wikidata": "Q11297236",
+        "brand:wikidata": "Q129093913",
         "name": "カルディコーヒーファーム",
         "name:en": "Kaldi Coffee Farm",
         "name:ja": "カルディコーヒーファーム",

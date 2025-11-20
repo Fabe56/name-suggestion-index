@@ -6,8 +6,8 @@
   "items": [
     {
       "displayName": "Aubert",
-      "id": "aubert-e7ec7f",
-      "locationSet": {"include": ["fr"]},
+      "id": "aubert-e62f20",
+      "locationSet": {"include": ["fx"]},
       "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Aubert",
@@ -29,12 +29,25 @@
       }
     },
     {
-      "displayName": "Babies R Us",
-      "id": "babiesrus-a2ffc9",
-      "locationSet": {"include": ["ca", "us"]},
+      "displayName": "Babies R Us (Canada)",
+      "id": "babiesrus-caece2",
+      "locationSet": {"include": ["ca"]},
       "tags": {
         "brand": "Babies R Us",
         "brand:wikidata": "Q17232036",
+        "name": "Babies R Us",
+        "shop": "baby_goods"
+      }
+    },
+    {
+      "displayName": "Babies R Us (Southern Africa)",
+      "id": "babiesrus-005aaa",
+      "locationSet": {
+        "include": ["bw", "na", "za", "zm"]
+      },
+      "tags": {
+        "brand": "Babies R Us",
+        "brand:wikidata": "Q130461555",
         "name": "Babies R Us",
         "shop": "baby_goods"
       }
@@ -84,6 +97,16 @@
       }
     },
     {
+      "displayName": "Bébé 9",
+      "id": "bebe9-e7ec7f",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Bébé 9",
+        "name": "Bébé 9",
+        "shop": "baby_goods"
+      }
+    },
+    {
       "displayName": "Buy Buy Baby",
       "id": "buybuybaby-a2ffc9",
       "locationSet": {"include": ["ca", "us"]},
@@ -106,6 +129,17 @@
       }
     },
     {
+      "displayName": "Dreambaby",
+      "id": "dreambaby-c0a64f",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "brand": "Dreambaby",
+        "brand:wikidata": "Q116460054",
+        "name": "Dreambaby",
+        "shop": "baby_goods"
+      }
+    },
+    {
       "displayName": "ebebek",
       "id": "ebebek-ec78ad",
       "locationSet": {"include": ["tr"]},
@@ -120,6 +154,7 @@
       "displayName": "Mamas & Papas",
       "id": "mamasandpapas-9c51ce",
       "locationSet": {"include": ["gb"]},
+      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Mamas & Papas",
         "brand:wikidata": "Q6745447",
@@ -141,8 +176,8 @@
     },
     {
       "displayName": "Natalys",
-      "id": "natalys-e7ec7f",
-      "locationSet": {"include": ["fr"]},
+      "id": "natalys-e62f20",
+      "locationSet": {"include": ["fx"]},
       "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Natalys",
@@ -164,6 +199,7 @@
           "pt"
         ]
       },
+      "matchTags": ["shop/clothes"],
       "tags": {
         "brand": "Prénatal",
         "brand:wikidata": "Q105961413",
@@ -186,7 +222,7 @@
     },
     {
       "displayName": "Suavinex",
-      "id": "suavinex-f3fd61",
+      "id": "suavinex-323d81",
       "locationSet": {
         "include": [
           "ae",
@@ -209,7 +245,6 @@
           "ge",
           "gq",
           "gr",
-          "hk",
           "il",
           "iq",
           "ir",
@@ -288,9 +323,11 @@
       "tags": {
         "brand": "Детский мир",
         "brand:en": "Detskiy Mir",
+        "brand:ru": "Детский мир",
         "brand:wikidata": "Q16643324",
         "name": "Детский мир",
         "name:en": "Detskiy Mir",
+        "name:ru": "Детский мир",
         "shop": "baby_goods"
       }
     },

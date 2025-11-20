@@ -88,6 +88,19 @@
       }
     },
     {
+      "displayName": "Mainyard Studios",
+      "id": "mainyardstudios-80a88a",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
+      "tags": {
+        "brand": "Mainyard Studios",
+        "brand:wikidata": "Q127515162",
+        "name": "Mainyard Studios",
+        "office": "coworking"
+      }
+    },
+    {
       "displayName": "Regus",
       "id": "regus-cfb41b",
       "locationSet": {"include": ["001"]},
@@ -133,10 +146,10 @@
     {
       "displayName": "Spaces (Scandinavia)",
       "id": "spaces-ffd6f1",
+      "issues": [5500],
       "locationSet": {
         "include": ["dk", "fi", "no", "se"]
       },
-      "note": "https://github.com/osmlab/name-suggestion-index/issues/5500",
       "preserveTags": ["^name"],
       "tags": {
         "brand": "Spaces",
@@ -158,6 +171,20 @@
         "brand": "Techspace",
         "brand:wikidata": "Q118610639",
         "name": "Techspace",
+        "office": "coworking"
+      }
+    },
+    {
+      "displayName": "tuesday coworking",
+      "id": "tuesdaycoworking-03a422",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
+      "tags": {
+        "brand": "tuesday coworking",
+        "brand:wikidata": "Q44159166",
+        "fee": "yes",
+        "name": "tuesday coworking",
         "office": "coworking"
       }
     },

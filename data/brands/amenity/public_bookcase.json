@@ -3,14 +3,25 @@
     "path": "brands/amenity/public_bookcase",
     "exclude": {
       "generic": [
-        "^(public bookcase|bo[îi]te [aà] livres|(offener )?bücherschrank)$",
-        "^bücherbox$",
-        "^bücherzelle$",
-        "^knihobudka$"
+        "^(offener|öffentlicher)?\\s?bücher(box|schrank|zelle)$",
+        "^bo[îi]te [aà] liv?res?$",
+        "^knihobudka$",
+        "^public bookcase$"
       ]
     }
   },
   "items": [
+    {
+      "displayName": "Bibliocabine",
+      "id": "bibliocabina-227ad5",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "amenity": "public_bookcase",
+        "brand": "Bibliocabine",
+        "brand:wikidata": "Q130461884",
+        "name": "Bibliocabina"
+      }
+    },
     {
       "displayName": "Bieb Bieb Aalst",
       "id": "biebbieb-31eb16",
@@ -23,11 +34,13 @@
     },
     {
       "displayName": "Boekentil (Stad Leuven)",
-      "id": "boekentil-31eb16",
-      "locationSet": {"include": ["be"]},
+      "id": "boekentil-91f992",
+      "locationSet": {
+        "include": ["be-vbr.geojson"]
+      },
       "tags": {
         "amenity": "public_bookcase",
-        "brand": "Boekentil (Stad Leuven)",
+        "brand": "Boekentil",
         "brand:wikidata": "Q118958",
         "name": "Boekentil"
       }
@@ -42,6 +55,16 @@
         "brand": "Bücherhäuschen",
         "brand:wikidata": "Q1589627",
         "name": "Bücherhäuschen"
+      }
+    },
+    {
+      "displayName": "Cabane à livres",
+      "id": "cabanealivres-c4d8c7",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "public_bookcase",
+        "brand": "Cabane à livres",
+        "name": "Cabane à livres"
       }
     },
     {
@@ -69,6 +92,17 @@
       }
     },
     {
+      "displayName": "Innogy Bücherschrank",
+      "id": "innogybucherschrank-49b5a5",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "public_bookcase",
+        "brand": "Innogy Bücherschrank",
+        "brand:wikidata": "Q2124721",
+        "name": "Innogy Bücherschrank"
+      }
+    },
+    {
       "displayName": "KinderzwerfboekStation",
       "id": "kinderzwerfboekstation-2091e3",
       "locationSet": {"include": ["nl"]},
@@ -85,7 +119,7 @@
       "locationSet": {"include": ["no"]},
       "tags": {
         "amenity": "public_bookcase",
-        "brand": "Lesekiosk (Foreningen !les)",
+        "brand": "Lesekiosk",
         "brand:wikidata": "Q11008642",
         "name": "Lesekiosk"
       }
@@ -118,8 +152,7 @@
       "tags": {
         "amenity": "public_bookcase",
         "brand": "Little Free Library",
-        "brand:wikidata": "Q6650101",
-        "name": "Little Free Library"
+        "brand:wikidata": "Q6650101"
       }
     },
     {
@@ -166,6 +199,17 @@
       }
     },
     {
+      "displayName": "RWE Bücherschrank",
+      "id": "rwebucherschrank-49b5a5",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "public_bookcase",
+        "brand": "RWE Bücherschrank",
+        "brand:wikidata": "Q138133",
+        "name": "RWE Bücherschrank"
+      }
+    },
+    {
       "displayName": "Street Library",
       "id": "streetlibrary-ff483e",
       "locationSet": {"include": ["au"]},
@@ -174,6 +218,17 @@
         "brand": "Street Library",
         "brand:wikidata": "Q110910587",
         "name": "Street Library"
+      }
+    },
+    {
+      "displayName": "Westenergie Bücherschrank",
+      "id": "westenergiebucherschrank-49b5a5",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "public_bookcase",
+        "brand": "Westenergie Bücherschrank",
+        "brand:wikidata": "Q104871107",
+        "name": "Westenergie Bücherschrank"
       }
     },
     {

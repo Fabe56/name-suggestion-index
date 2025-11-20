@@ -5,12 +5,23 @@
   },
   "items": [
     {
+      "displayName": "Alstom",
+      "id": "alstom-3739d4",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Alstom",
+        "brand:wikidata": "Q309084",
+        "name": "Alstom",
+        "office": "engineer"
+      }
+    },
+    {
       "displayName": "WSP",
-      "id": "wsp-1283df",
-      "locationSet": {"include": ["us"]},
+      "id": "wsp-2c4a94",
+      "locationSet": {"include": ["ca", "us"]},
       "tags": {
         "brand": "WSP",
-        "brand:wikidata": "Q16912277",
+        "brand:wikidata": "Q1333162",
         "name": "WSP",
         "office": "engineer"
       }

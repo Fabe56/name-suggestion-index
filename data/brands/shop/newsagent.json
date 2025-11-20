@@ -60,13 +60,28 @@
       }
     },
     {
+      "displayName": "Gateway Newstands",
+      "id": "gatewaynewstands-96151b",
+      "locationSet": {
+        "include": ["ca-on.geojson"]
+      },
+      "tags": {
+        "brand": "Gateway Newstands",
+        "brand:wikidata": "Q5527265",
+        "name": "Gateway Newstands",
+        "shop": "newsagent"
+      }
+    },
+    {
       "displayName": "GECO",
-      "id": "geco-5d4c3a",
-      "locationSet": {"include": ["cz", "sk"]},
+      "id": "geco-6f95ad",
+      "locationSet": {
+        "include": ["cz", "de", "sk"]
+      },
       "matchNames": ["geco tabak"],
       "tags": {
         "brand": "GECO",
-        "brand:wikidata": "Q12017963",
+        "brand:wikidata": "Q58206631",
         "name": "GECO",
         "shop": "newsagent"
       }
@@ -122,8 +137,8 @@
     },
     {
       "displayName": "Mag Presse",
-      "id": "magpresse-007cee",
-      "locationSet": {"include": ["fr"]},
+      "id": "magpresse-8612f7",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Mag Presse",
         "name": "Mag Presse",
@@ -143,13 +158,13 @@
       }
     },
     {
-      "displayName": "Martin's",
-      "id": "martins-6728e7",
-      "locationSet": {"include": ["gb"]},
+      "displayName": "M+M Tabak",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["m plus m"],
       "tags": {
-        "brand": "Martin's",
-        "brand:wikidata": "Q116779207",
-        "name": "Martin's",
+        "brand": "M+M Tabak",
+        "brand:wikidata": "Q136689176",
+        "name": "M+M Tabak",
         "shop": "newsagent"
       }
     },
@@ -175,6 +190,18 @@
         "brand": "Press & Books",
         "brand:wikidata": "Q100407277",
         "name": "Press & Books",
+        "shop": "newsagent"
+      }
+    },
+    {
+      "displayName": "Press Shop",
+      "id": "pressshop-293759",
+      "locationSet": {"include": ["be"]},
+      "matchTags": ["shop/book"],
+      "tags": {
+        "brand": "Press Shop",
+        "brand:wikidata": "Q126196511",
+        "name": "Press Shop",
         "shop": "newsagent"
       }
     },
@@ -218,6 +245,7 @@
       "locationSet": {"include": ["pl"]},
       "tags": {
         "brand": "Świat Prasy",
+        "brand:wikidata": "Q127769965",
         "name": "Świat Prasy",
         "shop": "newsagent"
       }
@@ -235,10 +263,24 @@
       }
     },
     {
+      "displayName": "TGJones",
+      "id": "tgjones-6728e7",
+      "locationSet": {"include": ["gb"]},
+      "matchTags": ["shop/stationery"],
+      "note": "New name for many (but not all) GB based WHSmith stores.",
+      "tags": {
+        "brand": "TGJones",
+        "brand:wikidata": "Q133575797",
+        "name": "TGJones",
+        "shop": "newsagent"
+      }
+    },
+    {
       "displayName": "WHSmith",
       "id": "whsmith-e6d891",
       "locationSet": {"include": ["001"]},
       "matchTags": ["shop/stationery"],
+      "note": "Many (but not all) GB based stores are becoming TGJones.",
       "tags": {
         "brand": "WHSmith",
         "brand:wikidata": "Q1548712",
@@ -336,9 +378,11 @@
       "tags": {
         "brand": "朝日新聞",
         "brand:en": "Asahi Shimbun",
+        "brand:ja": "朝日新聞",
         "brand:wikidata": "Q720503",
         "name": "朝日新聞",
         "name:en": "Asahi Shimbun",
+        "name:ja": "朝日新聞",
         "shop": "newsagent"
       }
     },
@@ -381,9 +425,11 @@
       "tags": {
         "brand": "読売新聞",
         "brand:en": "Yomiuri Shimbun",
+        "brand:ja": "読売新聞",
         "brand:wikidata": "Q645218",
         "name": "読売新聞",
         "name:en": "Yomiuri Shimbun",
+        "name:ja": "読売新聞",
         "shop": "newsagent"
       }
     }

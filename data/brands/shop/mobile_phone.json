@@ -35,12 +35,14 @@
       }
     },
     {
-      "displayName": "A1 prodajno mesto",
-      "id": "a1prodajnomesto-ee5434",
-      "locationSet": {"include": ["001"]},
+      "displayName": "3Butiken (Sweden)",
+      "id": "3butiken-5d1f83",
+      "locationSet": {"include": ["se"]},
+      "matchNames": ["3", "tre"],
       "tags": {
-        "brand": "A1 prodajno mesto",
-        "name": "A1 prodajno mesto",
+        "brand": "3Butiken",
+        "brand:wikidata": "Q10523825",
+        "name": "3Butiken",
         "shop": "mobile_phone"
       }
     },
@@ -60,6 +62,7 @@
       "id": "atandt-1b6a25",
       "locationSet": {"include": ["mx", "us"]},
       "matchNames": [
+        "at&t authorized retailer",
         "at&t mx",
         "at&t store",
         "at&t wireless",
@@ -117,22 +120,6 @@
       }
     },
     {
-      "displayName": "Bell",
-      "id": "bell-947b24",
-      "locationSet": {"include": ["ca"]},
-      "matchNames": [
-        "bell mobile",
-        "bell mobility",
-        "bell wireless"
-      ],
-      "tags": {
-        "brand": "Bell",
-        "brand:wikidata": "Q2894594",
-        "name": "Bell",
-        "shop": "mobile_phone"
-      }
-    },
-    {
       "displayName": "Best Buy Mobile",
       "id": "bestbuymobile-947b24",
       "locationSet": {"include": ["ca"]},
@@ -167,17 +154,6 @@
       }
     },
     {
-      "displayName": "Bouygues Telecom",
-      "id": "bouyguestelecom-f6fe9a",
-      "locationSet": {"include": ["fr"]},
-      "tags": {
-        "brand": "Bouygues Telecom",
-        "brand:wikidata": "Q581438",
-        "name": "Bouygues Telecom",
-        "shop": "mobile_phone"
-      }
-    },
-    {
       "displayName": "Carphone Warehouse",
       "id": "carphonewarehouse-eb0c8f",
       "locationSet": {"include": ["by", "gb"]},
@@ -187,6 +163,21 @@
         "brand": "Carphone Warehouse",
         "brand:wikidata": "Q118046",
         "name": "Carphone Warehouse",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Cellcom",
+      "id": "cellcom-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "סלקום",
+        "brand:en": "Cellcom",
+        "brand:he": "סלקום",
+        "brand:wikidata": "Q2450722",
+        "name": "סלקום",
+        "name:en": "Cellcom",
+        "name:he": "סלקום",
         "shop": "mobile_phone"
       }
     },
@@ -230,17 +221,6 @@
         "brand": "Claro",
         "brand:wikidata": "Q1770208",
         "name": "Claro",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Cosmote",
-      "id": "cosmote-d5175a",
-      "locationSet": {"include": ["gr"]},
-      "tags": {
-        "brand": "Cosmote",
-        "brand:wikidata": "Q1136203",
-        "name": "Cosmote",
         "shop": "mobile_phone"
       }
     },
@@ -323,17 +303,6 @@
       }
     },
     {
-      "displayName": "Free",
-      "id": "free-f6fe9a",
-      "locationSet": {"include": ["fr"]},
-      "tags": {
-        "brand": "Free",
-        "brand:wikidata": "Q2467627",
-        "name": "Free",
-        "shop": "mobile_phone"
-      }
-    },
-    {
       "displayName": "Freedom Mobile",
       "id": "freedommobile-947b24",
       "locationSet": {"include": ["ca"]},
@@ -364,22 +333,12 @@
       },
       "tags": {
         "brand": "Huawei",
+        "brand:en": "Huawei",
         "brand:wikidata": "Q160120",
         "brand:zh": "华为",
         "name": "Huawei",
+        "name:en": "Huawei",
         "name:zh": "华为",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Iliad",
-      "id": "iliad-c4d7ba",
-      "locationSet": {"include": ["it"]},
-      "matchNames": ["iliad store"],
-      "tags": {
-        "brand": "Iliad",
-        "brand:wikidata": "Q55433734",
-        "name": "Iliad",
         "shop": "mobile_phone"
       }
     },
@@ -406,24 +365,24 @@
       }
     },
     {
-      "displayName": "Koodo",
-      "id": "koodo-947b24",
-      "locationSet": {"include": ["ca"]},
+      "displayName": "Istudio",
+      "id": "istudio-2c407d",
+      "locationSet": {"include": ["ru"]},
       "tags": {
-        "brand": "Koodo",
-        "brand:wikidata": "Q6430529",
-        "name": "Koodo",
+        "brand": "Istudio",
+        "name": "Istudio",
         "shop": "mobile_phone"
       }
     },
     {
-      "displayName": "KPN",
-      "id": "kpn-c7ad94",
-      "locationSet": {"include": ["nl"]},
+      "displayName": "Koodo",
+      "id": "koodo-947b24",
+      "locationSet": {"include": ["ca"]},
+      "matchNames": ["koodo mobile"],
       "tags": {
-        "brand": "KPN",
-        "brand:wikidata": "Q338633",
-        "name": "KPN",
+        "brand": "Koodo",
+        "brand:wikidata": "Q6430529",
+        "name": "Koodo",
         "shop": "mobile_phone"
       }
     },
@@ -445,24 +404,13 @@
       }
     },
     {
-      "displayName": "Mega device",
-      "id": "megadevice-2a48ca",
-      "locationSet": {"include": ["bg"]},
-      "tags": {
-        "brand": "Mega device",
-        "brand:wikidata": "Q123003039",
-        "name": "Mega device",
-        "shop": "mobile_phone"
-      }
-    },
-    {
       "displayName": "MEO",
       "id": "meo-fcef49",
       "locationSet": {"include": ["pt"]},
       "matchNames": ["loja meo"],
       "tags": {
         "brand": "MEO",
-        "brand:wikidata": "Q3306167",
+        "brand:wikidata": "Q1365938",
         "name": "MEO",
         "shop": "mobile_phone"
       }
@@ -477,18 +425,6 @@
         "brand": "Metro by T-Mobile",
         "brand:wikidata": "Q1925685",
         "name": "Metro by T-Mobile",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Mobilcom Debitel",
-      "id": "mobilcomdebitel-8f420b",
-      "locationSet": {"include": ["de", "ir"]},
-      "matchNames": ["debitel"],
-      "tags": {
-        "brand": "Mobilcom Debitel",
-        "brand:wikidata": "Q344744",
-        "name": "Mobilcom Debitel",
         "shop": "mobile_phone"
       }
     },
@@ -517,11 +453,22 @@
     {
       "displayName": "Mobit",
       "id": "mobit-c74974",
+      "issues": [5500],
       "locationSet": {"include": ["no"]},
-      "note": "https://github.com/osmlab/name-suggestion-index/issues/5500",
       "preserveTags": ["^name"],
       "tags": {
         "brand": "Mobit",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Moldcell",
+      "id": "moldcell-a16e28",
+      "locationSet": {"include": ["md"]},
+      "tags": {
+        "brand": "Moldcell",
+        "brand:wikidata": "Q1971178",
+        "name": "Moldcell",
         "shop": "mobile_phone"
       }
     },
@@ -539,7 +486,7 @@
     },
     {
       "displayName": "Movistar",
-      "id": "movistar-de0f48",
+      "id": "movistar-acd455",
       "locationSet": {
         "include": [
           "ar",
@@ -547,7 +494,6 @@
           "co",
           "cr",
           "ec",
-          "es",
           "gt",
           "mx",
           "ni",
@@ -558,7 +504,6 @@
           "ve"
         ]
       },
-      "matchNames": ["movistar españa"],
       "tags": {
         "brand": "Movistar",
         "brand:wikidata": "Q967735",
@@ -613,8 +558,8 @@
     },
     {
       "displayName": "O!Store",
-      "id": "ostore-ee5434",
-      "locationSet": {"include": ["001"]},
+      "id": "ostore-7e5c09",
+      "locationSet": {"include": ["kg"]},
       "tags": {
         "brand": "O!Store",
         "name": "O!Store",
@@ -623,10 +568,11 @@
     },
     {
       "displayName": "O2",
-      "id": "o2-8befd0",
+      "id": "o2-d2c5a6",
       "locationSet": {
-        "include": ["cz", "de", "gb", "ie", "sk"]
+        "include": ["cz", "gb", "ie", "sk"]
       },
+      "matchNames": ["o²"],
       "tags": {
         "brand": "O2",
         "brand:wikidata": "Q1759255",
@@ -636,11 +582,23 @@
     },
     {
       "displayName": "One",
-      "id": "one-ee5434",
-      "locationSet": {"include": ["001"]},
+      "id": "one-bcb9ac",
+      "locationSet": {"include": ["al", "me"]},
       "tags": {
         "brand": "One",
         "name": "One",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "One NZ",
+      "id": "onenz-5219b0",
+      "locationSet": {"include": ["nz"]},
+      "matchNames": ["vodafone"],
+      "tags": {
+        "brand": "One NZ",
+        "brand:wikidata": "Q7939291",
+        "name": "One NZ",
         "shop": "mobile_phone"
       }
     },
@@ -679,9 +637,37 @@
     },
     {
       "displayName": "Orange",
-      "id": "orange-ee5434",
-      "locationSet": {"include": ["001"]},
-      "matchNames": ["agence orange"],
+      "id": "orange-87fd86",
+      "locationSet": {
+        "include": [
+          "be",
+          "bf",
+          "bw",
+          "cd",
+          "cf",
+          "ci",
+          "cm",
+          "eg",
+          "gn",
+          "gw",
+          "jo",
+          "lr",
+          "lu",
+          "md",
+          "mg",
+          "pl",
+          "re",
+          "ro",
+          "sk",
+          "sl",
+          "sn",
+          "tn"
+        ]
+      },
+      "matchNames": [
+        "agence orange",
+        "orange egypt"
+      ],
       "tags": {
         "brand": "Orange",
         "brand:wikidata": "Q1431486",
@@ -690,13 +676,13 @@
       }
     },
     {
-      "displayName": "Pep Cell",
+      "displayName": "PEP Cell",
       "id": "pepcell-43981d",
       "locationSet": {"include": ["za"]},
       "tags": {
-        "brand": "Pep Cell",
-        "brand:wikidata": "Q7166182",
-        "name": "Pep Cell",
+        "brand": "PEP Cell",
+        "brand:wikidata": "Q128802743",
+        "name": "PEP Cell",
         "shop": "mobile_phone"
       }
     },
@@ -713,10 +699,8 @@
     },
     {
       "displayName": "Phone House",
-      "id": "phonehouse-3d17eb",
-      "locationSet": {
-        "include": ["de", "es", "fr", "nl", "pt"]
-      },
+      "id": "phonehouse-cf5d3e",
+      "locationSet": {"include": ["es", "nl"]},
       "matchNames": ["the phone house"],
       "tags": {
         "brand": "Phone House",
@@ -760,7 +744,18 @@
       }
     },
     {
-      "displayName": "Safaricom",
+      "displayName": "Safaricom (Ethiopia)",
+      "id": "safaricom-158a4a",
+      "locationSet": {"include": ["et"]},
+      "tags": {
+        "brand": "Safaricom",
+        "brand:wikidata": "Q107175263",
+        "name": "Safaricom",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Safaricom (Kenya)",
       "id": "safaricom-46e307",
       "locationSet": {"include": ["ke"]},
       "tags": {
@@ -771,14 +766,13 @@
       }
     },
     {
-      "displayName": "SFR",
-      "id": "sfr-ba7290",
-      "locationSet": {"include": ["fr", "lu"]},
-      "matchNames": ["espace sfr"],
+      "displayName": "Smartshop",
+      "id": "smartshop-0fdd33",
+      "locationSet": {"include": ["sk"]},
       "tags": {
-        "brand": "SFR",
-        "brand:wikidata": "Q218765",
-        "name": "SFR",
+        "brand": "Smartshop",
+        "brand:wikidata": "Q132054727",
+        "name": "Smartshop",
         "shop": "mobile_phone"
       }
     },
@@ -856,8 +850,11 @@
     },
     {
       "displayName": "Tele2",
-      "id": "tele2-ee5434",
-      "locationSet": {"include": ["001"]},
+      "id": "tele2-7928db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["ru"]
+      },
       "tags": {
         "brand": "Tele2",
         "brand:wikidata": "Q309865",
@@ -867,9 +864,9 @@
     },
     {
       "displayName": "Telekom",
-      "id": "telekom-22825c",
+      "id": "telekom-7c714d",
       "locationSet": {
-        "include": ["hu", "ro", "si", "sk"]
+        "include": ["hu", "ro", "si"]
       },
       "matchNames": ["telekom shop"],
       "tags": {
@@ -880,35 +877,12 @@
       }
     },
     {
-      "displayName": "Telekom Shop",
-      "id": "telekomshop-73b980",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "alt_name": "T-Shop",
-        "brand": "Deutsche Telekom",
-        "brand:wikidata": "Q9396",
-        "name": "Telekom Shop",
-        "shop": "mobile_phone"
-      }
-    },
-    {
       "displayName": "Telenor Denmark",
       "id": "telenor-77edfc",
       "locationSet": {"include": ["dk"]},
       "tags": {
         "brand": "Telenor",
         "brand:wikidata": "Q1796954",
-        "name": "Telenor",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Telenor India",
-      "id": "telenor-733df6",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "brand": "Telenor",
-        "brand:wikidata": "Q3358931",
         "name": "Telenor",
         "shop": "mobile_phone"
       }
@@ -927,8 +901,8 @@
     {
       "displayName": "Telenor Sweden",
       "id": "telenor-5d1f83",
+      "issues": [5500],
       "locationSet": {"include": ["se"]},
-      "note": "https://github.com/osmlab/name-suggestion-index/issues/5500",
       "preserveTags": ["^name"],
       "tags": {
         "brand": "Telenor",
@@ -940,8 +914,8 @@
     {
       "displayName": "Telenorbutikken",
       "id": "telenorbutikken-c74974",
+      "issues": [5500],
       "locationSet": {"include": ["no"]},
-      "note": "https://github.com/osmlab/name-suggestion-index/issues/5500",
       "preserveTags": ["^name"],
       "tags": {
         "brand": "Telenorbutikken",
@@ -952,10 +926,10 @@
     {
       "displayName": "Telia",
       "id": "telia-856553",
+      "issues": [5500],
       "locationSet": {
         "include": ["dk", "fi", "lt", "no", "se"]
       },
-      "note": "https://github.com/osmlab/name-suggestion-index/issues/5500",
       "preserveTags": ["^name"],
       "tags": {
         "brand": "Telia",
@@ -972,6 +946,20 @@
         "brand": "Telkom",
         "brand:wikidata": "Q1818970",
         "name": "Telkom",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Telsim Vodafone",
+      "id": "telsimvodafone-7cc4eb",
+      "locationSet": {
+        "include": ["northern cyprus"]
+      },
+      "matchNames": ["vodafone"],
+      "tags": {
+        "brand": "Telsim",
+        "brand:wikidata": "Q6332131",
+        "name": "Telsim Vodafone",
         "shop": "mobile_phone"
       }
     },
@@ -1022,8 +1010,8 @@
     },
     {
       "displayName": "Three",
-      "id": "three-e135a8",
-      "locationSet": {"include": ["gb", "it"]},
+      "id": "three-94b138",
+      "locationSet": {"include": ["gb"]},
       "matchNames": [
         "3",
         "3 store",
@@ -1037,25 +1025,80 @@
       }
     },
     {
-      "displayName": "Tigo",
-      "id": "tigo-ee5434",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Tigo (Bolivia)",
+      "id": "tigo-90790a",
+      "locationSet": {"include": ["bo"]},
       "tags": {
         "brand": "Tigo",
+        "brand:wikidata": "Q10952410",
+        "name": "Tigo",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Tigo (Colombia)",
+      "id": "tigo-4a4860",
+      "locationSet": {"include": ["co"]},
+      "tags": {
+        "brand": "Tigo",
+        "brand:wikidata": "Q6155026",
+        "name": "Tigo",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Tigo (El Salvador)",
+      "id": "tigo-e91b0c",
+      "locationSet": {"include": ["sv"]},
+      "tags": {
+        "brand": "Tigo",
+        "brand:wikidata": "Q7801678",
+        "name": "Tigo",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Tigo (Guatemala)",
+      "id": "tigo-ee0f07",
+      "locationSet": {"include": ["gt"]},
+      "tags": {
+        "brand": "Tigo",
+        "brand:wikidata": "Q7801679",
+        "name": "Tigo",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Tigo (Paraguay)",
+      "id": "tigo-98108f",
+      "locationSet": {"include": ["py"]},
+      "tags": {
+        "brand": "Tigo",
+        "brand:wikidata": "Q18924027",
         "name": "Tigo",
         "shop": "mobile_phone"
       }
     },
     {
       "displayName": "TIM",
-      "id": "tim-a66d78",
-      "locationSet": {
-        "include": ["br", "it", "sm"]
-      },
+      "id": "tim-efd65c",
+      "locationSet": {"include": ["br"]},
       "tags": {
         "brand": "TIM",
         "brand:wikidata": "Q1120617",
         "name": "TIM",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Total by Verizon",
+      "id": "totalbyverizon-ce3e5c",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["total", "total wireless"],
+      "tags": {
+        "brand": "Total by Verizon",
+        "brand:wikidata": "Q64590606",
+        "name": "Total by Verizon",
         "shop": "mobile_phone"
       }
     },
@@ -1072,8 +1115,10 @@
     },
     {
       "displayName": "Turkcell",
-      "id": "turkcell-0bab4d",
-      "locationSet": {"include": ["cy", "tr"]},
+      "id": "turkcell-fa064d",
+      "locationSet": {
+        "include": ["northern cyprus", "tr"]
+      },
       "tags": {
         "brand": "Turkcell",
         "brand:wikidata": "Q283852",
@@ -1109,9 +1154,29 @@
       }
     },
     {
+      "displayName": "Value Mobile",
+      "id": "valuemobile-cbf626",
+      "locationSet": {
+        "include": [
+          "ca-ab.geojson",
+          "ca-bc.geojson",
+          "ca-on.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Value Mobile",
+        "brand:wikidata": "Q133255811",
+        "name": "Value Mobile",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "Verizon",
       "id": "verizon-ce3e5c",
       "locationSet": {"include": ["us"]},
+      "matchNames": [
+        "verizon authorized retailer"
+      ],
       "preserveTags": ["^name"],
       "tags": {
         "alt_name": "Verizon Wireless",
@@ -1134,12 +1199,12 @@
     },
     {
       "displayName": "Viettel Store",
-      "id": "a1prodajnomesto-4fc1f0",
+      "id": "viettelstore-4fc1f0",
       "locationSet": {"include": ["vn"]},
       "tags": {
         "brand": "Viettel Store",
         "brand:wikidata": "Q123493815",
-        "name": "A1 prodajno mesto",
+        "name": "Viettel Store",
         "shop": "mobile_phone"
       }
     },
@@ -1162,6 +1227,7 @@
         "include": ["001"],
         "exclude": ["br"]
       },
+      "matchTags": ["craft/electronics_repair"],
       "tags": {
         "brand": "Vivo",
         "brand:wikidata": "Q18301787",
@@ -1181,19 +1247,46 @@
       }
     },
     {
-      "displayName": "Vodacom",
-      "id": "vodacom-12caeb",
-      "locationSet": {
-        "include": [
-          "cd",
-          "et",
-          "ke",
-          "ls",
-          "mz",
-          "tz",
-          "za"
-        ]
-      },
+      "displayName": "Vodacom (D. R. Congo)",
+      "id": "vodacom-dd47b4",
+      "locationSet": {"include": ["cd"]},
+      "matchNames": ["vodacom shop", "vodashop"],
+      "tags": {
+        "brand": "Vodacom Congo",
+        "brand:wikidata": "Q130477507",
+        "name": "Vodacom",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Vodacom (Lesotho)",
+      "id": "vodacom-60670b",
+      "locationSet": {"include": ["ls"]},
+      "matchNames": ["vodacom shop", "vodashop"],
+      "tags": {
+        "brand": "Vodacom Lesotho",
+        "brand:wikidata": "Q130477539",
+        "name": "Vodacom",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Vodacom (Moçambique)",
+      "id": "vodacom-4ee583",
+      "locationSet": {"include": ["mz"]},
+      "matchNames": ["vodacom shop", "vodashop"],
+      "tags": {
+        "brand": "Vodacom Moçambique",
+        "brand:wikidata": "Q130477552",
+        "name": "Vodacom",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "Vodacom (South Africa)",
+      "id": "vodacom-43981d",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["vodacom shop", "vodashop"],
       "tags": {
         "brand": "Vodacom",
         "brand:wikidata": "Q1856518",
@@ -1202,28 +1295,34 @@
       }
     },
     {
+      "displayName": "Vodacom (Tanzania)",
+      "id": "vodacom-6656e3",
+      "locationSet": {"include": ["tz"]},
+      "matchNames": ["vodacom shop", "vodashop"],
+      "tags": {
+        "brand": "Vodacom Tanzania",
+        "brand:wikidata": "Q7939274",
+        "name": "Vodacom",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "Vodafone",
-      "id": "vodafone-958179",
+      "id": "vodafone-187d7d",
       "locationSet": {
         "include": [
           "al",
           "au",
           "ck",
           "cz",
-          "de",
           "eg",
-          "es",
           "fj",
           "gb",
           "gh",
-          "gr",
           "hu",
           "ie",
           "is",
-          "it",
           "ki",
-          "nl",
-          "northern cyprus",
           "om",
           "pf",
           "pg",
@@ -1231,6 +1330,7 @@
           "qa",
           "ro",
           "tr",
+          "ua",
           "vu",
           "ws"
         ]
@@ -1238,30 +1338,11 @@
       "matchNames": [
         "vodafone deutschland",
         "vodafone egypt",
-        "vodafone it",
-        "vodafone italia spa",
         "vodafone shop"
       ],
       "tags": {
         "brand": "Vodafone",
         "brand:wikidata": "Q122141",
-        "name": "Vodafone",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Vodafone (Україна)",
-      "id": "vodafone-985251",
-      "locationSet": {"include": ["ua"]},
-      "matchNames": [
-        "mts",
-        "vodafone shop",
-        "водафон",
-        "мтс"
-      ],
-      "tags": {
-        "brand": "Vodafone",
-        "brand:wikidata": "Q846031",
         "name": "Vodafone",
         "shop": "mobile_phone"
       }
@@ -1288,37 +1369,25 @@
       }
     },
     {
+      "displayName": "Walmart Wireless",
+      "id": "walmartwireless-dac92d",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "name": "Walmart Wireless",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "WIFI_ETECSA",
       "id": "wifietecsa-9a8553",
       "locationSet": {"include": ["cu"]},
+      "note": "underscore character is part of the name",
       "tags": {
         "brand": "WIFI_ETECSA",
         "brand:wikidata": "Q490323",
         "name": "WIFI_ETECSA",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "WIND Hellas",
-      "id": "windhellas-d5175a",
-      "locationSet": {"include": ["gr"]},
-      "matchNames": ["wind"],
-      "tags": {
-        "brand": "WIND Hellas",
-        "brand:wikidata": "Q10711016",
-        "name": "WIND Hellas",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Wind Tre",
-      "id": "windtre-c4d7ba",
-      "locationSet": {"include": ["it"]},
-      "matchNames": ["wind"],
-      "tags": {
-        "brand": "Wind Tre",
-        "brand:wikidata": "Q28119223",
-        "name": "Wind Tre",
         "shop": "mobile_phone"
       }
     },
@@ -1355,17 +1424,6 @@
         "brand": "Xiaomi",
         "brand:wikidata": "Q1636958",
         "name": "Xiaomi",
-        "shop": "mobile_phone"
-      }
-    },
-    {
-      "displayName": "Yoigo",
-      "id": "yoigo-7135b5",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "brand": "Yoigo",
-        "brand:wikidata": "Q2630989",
-        "name": "Yoigo",
         "shop": "mobile_phone"
       }
     },
@@ -1427,9 +1485,11 @@
       "tags": {
         "brand": "Билайн",
         "brand:en": "Beeline",
+        "brand:ru": "Билайн",
         "brand:wikidata": "Q402880",
         "name": "Билайн",
         "name:en": "Beeline",
+        "name:ru": "Билайн",
         "shop": "mobile_phone"
       }
     },
@@ -1442,9 +1502,11 @@
       "tags": {
         "brand": "Евросеть",
         "brand:en": "Euroset",
+        "brand:ru": "Евросеть",
         "brand:wikidata": "Q65310",
         "name": "Евросеть",
         "name:en": "Euroset",
+        "name:ru": "Евросеть",
         "shop": "mobile_phone"
       }
     },
@@ -1487,9 +1549,11 @@
       "tags": {
         "brand": "Мегафон",
         "brand:en": "MegaFon",
+        "brand:ru": "Мегафон",
         "brand:wikidata": "Q1720713",
         "name": "Мегафон",
         "name:en": "MegaFon",
+        "name:ru": "Мегафон",
         "shop": "mobile_phone"
       }
     },
@@ -1500,9 +1564,11 @@
       "tags": {
         "brand": "МТС",
         "brand:en": "MTS",
+        "brand:ru": "МТС",
         "brand:wikidata": "Q1368919",
         "name": "МТС",
         "name:en": "MTS",
+        "name:ru": "МТС",
         "shop": "mobile_phone"
       }
     },
@@ -1526,9 +1592,11 @@
       "tags": {
         "brand": "Связной",
         "brand:en": "Svyaznoy",
+        "brand:ru": "Связной",
         "brand:wikidata": "Q65371",
         "name": "Связной",
         "name:en": "Svyaznoy",
+        "name:ru": "Связной",
         "shop": "mobile_phone"
       }
     },
@@ -1549,16 +1617,18 @@
       "tags": {
         "brand": "Теле2",
         "brand:en": "Tele2",
+        "brand:ru": "Теле2",
         "brand:wikidata": "Q309865",
         "name": "Теле2",
         "name:en": "Tele2",
+        "name:ru": "Теле2",
         "shop": "mobile_phone"
       }
     },
     {
       "displayName": "Телефон.ру",
-      "id": "5697c1-ee5434",
-      "locationSet": {"include": ["001"]},
+      "id": "5697c1-2c407d",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Телефон.ру",
         "name": "Телефон.ру",
@@ -1578,6 +1648,51 @@
         "name": "სელფი",
         "name:en": "Cellfie",
         "name:ka": "სელფი",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "הוט מובייל",
+      "id": "hotmobile-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "הוט מובייל",
+        "brand:en": "Hot Mobile",
+        "brand:he": "הוט מובייל",
+        "brand:wikidata": "Q847262",
+        "name": "הוט מובייל",
+        "name:en": "Hot Mobile",
+        "name:he": "הוט מובייל",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "פלאפון",
+      "id": "pelephone-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "פלאפון",
+        "brand:en": "Pelephone",
+        "brand:he": "פלאפון",
+        "brand:wikidata": "Q1536651",
+        "name": "פלאפון",
+        "name:en": "Pelephone",
+        "name:he": "פלאפון",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "פרטנר",
+      "id": "partner-0c2e23",
+      "locationSet": {"include": ["il"]},
+      "tags": {
+        "brand": "פרטנר",
+        "brand:en": "Partner",
+        "brand:he": "פרטנר",
+        "brand:wikidata": "Q2000500",
+        "name": "פרטנר",
+        "name:en": "Partner",
+        "name:he": "פרטנר",
         "shop": "mobile_phone"
       }
     },

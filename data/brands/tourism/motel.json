@@ -4,7 +4,7 @@
     "preserveTags": ["^name"],
     "exclude": {
       "generic": ["^motel$"],
-      "named": ["^budget inn$"]
+      "named": ["^(budget|economy|relax) inn$"]
     }
   },
   "items": [
@@ -42,16 +42,6 @@
         "brand": "Econo Lodge",
         "brand:wikidata": "Q5333330",
         "name": "Econo Lodge",
-        "tourism": "motel"
-      }
-    },
-    {
-      "displayName": "Economy Inn",
-      "id": "economyinn-a19b96",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "brand": "Economy Inn",
-        "name": "Economy Inn",
         "tourism": "motel"
       }
     },
@@ -100,12 +90,15 @@
       }
     },
     {
-      "displayName": "Relax Inn",
-      "id": "relaxinn-a19b96",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Palace Inn",
+      "id": "palaceinn-abc80b",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
       "tags": {
-        "brand": "Relax Inn",
-        "name": "Relax Inn",
+        "brand": "Palace Inn",
+        "brand:wikidata": "Q134883149",
+        "name": "Palace Inn",
         "tourism": "motel"
       }
     },
@@ -122,8 +115,17 @@
     },
     {
       "displayName": "Super 8",
-      "id": "super8-5ddaab",
-      "locationSet": {"include": ["ca", "us"]},
+      "id": "super8-8546e0",
+      "locationSet": {
+        "include": [
+          "ca",
+          "de",
+          "do",
+          "gb",
+          "id",
+          "us"
+        ]
+      },
       "matchNames": ["super 8 by wyndham"],
       "tags": {
         "brand": "Super 8",

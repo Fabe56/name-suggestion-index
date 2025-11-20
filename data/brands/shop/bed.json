@@ -48,6 +48,17 @@
       }
     },
     {
+      "displayName": "Beds R Us (Australia)",
+      "id": "bedsrus-156cc7",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Beds R Us",
+        "brand:wikidata": "Q126179491",
+        "name": "Beds R Us",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Bedshed",
       "id": "bedshed-156cc7",
       "locationSet": {"include": ["au"]},
@@ -59,7 +70,7 @@
       }
     },
     {
-      "displayName": "BedsRus",
+      "displayName": "BedsRus (New Zealand)",
       "id": "bedsrus-a769d8",
       "locationSet": {"include": ["nz"]},
       "tags": {
@@ -93,6 +104,16 @@
       }
     },
     {
+      "displayName": "Beyosa",
+      "id": "beyosa-e3cd64",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Beyosa",
+        "name": "Beyosa",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "brava",
       "id": "brava-cd9810",
       "locationSet": {"include": ["bg"]},
@@ -101,6 +122,7 @@
         "brand:wikidata": "Q121913063",
         "name": "brava",
         "name:bg": "Брава",
+        "name:en": "brava",
         "shop": "bed"
       }
     },
@@ -116,13 +138,19 @@
       }
     },
     {
-      "displayName": "Colchoes Ortobom",
-      "id": "colchoesortobom-4b84fc",
-      "locationSet": {"include": ["br"]},
+      "displayName": "Daniadown",
+      "id": "daniadown-fbfe85",
+      "locationSet": {"include": ["ca"]},
+      "matchTags": [
+        "shop/fabric",
+        "shop/interior_decoration"
+      ],
       "tags": {
-        "brand": "Colchoes Ortobom",
-        "brand:wikidata": "Q110087205",
-        "name": "Colchoes Ortobom",
+        "brand": "Daniadown",
+        "brand:wikidata": "Q136359124",
+        "furniture": "no",
+        "mattress": "no",
+        "name": "Daniadown",
         "shop": "bed"
       }
     },
@@ -134,6 +162,17 @@
         "brand": "Dial-a-Bed",
         "brand:wikidata": "Q116429178",
         "name": "Dial-a-Bed",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Dormimundo",
+      "id": "dormimundo-e4a2c8",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "Dormimundo",
+        "brand:wikidata": "Q126736615",
+        "name": "Dormimundo",
         "shop": "bed"
       }
     },
@@ -162,10 +201,10 @@
     },
     {
       "displayName": "France Literie",
-      "id": "franceliterie-fe1cb3",
-      "locationSet": {"include": ["fr"]},
+      "id": "franceliterie-1bbb34",
+      "locationSet": {"include": ["fx"]},
       "tags": {
-        "brand": "Dreams",
+        "brand": "France Literie",
         "brand:wikidata": "Q100249535",
         "name": "France Literie",
         "shop": "bed"
@@ -195,8 +234,8 @@
     },
     {
       "displayName": "La Compagnie du Lit",
-      "id": "lacompagniedulit-451f1d",
-      "locationSet": {"include": ["be", "fr"]},
+      "id": "lacompagniedulit-bec31a",
+      "locationSet": {"include": ["be", "fx"]},
       "tags": {
         "brand": "La Compagnie du Lit",
         "brand:wikidata": "Q120749952",
@@ -206,12 +245,23 @@
     },
     {
       "displayName": "Le Roi du Matelas",
-      "id": "leroidumatelas-fe1cb3",
-      "locationSet": {"include": ["fr"]},
+      "id": "leroidumatelas-1bbb34",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Le Roi du Matelas",
         "brand:wikidata": "Q122931917",
         "name": "Le Roi du Matelas",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Lova Yatak",
+      "id": "lovayatak-a08a8e",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "brand": "Lova Yatak",
+        "brand:wikidata": "Q130538416",
+        "name": "Lova Yatak",
         "shop": "bed"
       }
     },
@@ -296,6 +346,36 @@
       }
     },
     {
+      "displayName": "Maxcolchon",
+      "id": "maxcolchon-da2893",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Maxcolchon",
+        "brand:wikidata": "Q130243984",
+        "name": "Maxcolchon",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Metro Mattress",
+      "id": "metromattress-5fccfc",
+      "locationSet": {
+        "include": [
+          "us-ct.geojson",
+          "us-ma.geojson",
+          "us-nh.geojson",
+          "us-ny.geojson",
+          "us-ri.geojson"
+        ]
+      },
+      "tags": {
+        "brand": "Metro Mattress",
+        "brand:wikidata": "Q123558941",
+        "name": "Metro Mattress",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "MFO Matratzen",
       "id": "mfomatratzen-c61a29",
       "locationSet": {"include": ["de"]},
@@ -332,10 +412,44 @@
       "displayName": "Ortobom",
       "id": "ortobom-4b84fc",
       "locationSet": {"include": ["br"]},
+      "matchNames": ["colchões ortobom"],
       "tags": {
         "brand": "Ortobom",
         "brand:wikidata": "Q110087205",
         "name": "Ortobom",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Pan Materac",
+      "id": "panmaterac-9d466a",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Pan Materac",
+        "brand:wikidata": "Q133269903",
+        "name": "Pan Materac",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "PreSpánok",
+      "id": "prespanok-16989e",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "PreSpánok",
+        "brand:wikidata": "Q131526398",
+        "name": "PreSpánok",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "ProSpánek",
+      "id": "prospanek-5fff87",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "ProSpánek",
+        "brand:wikidata": "Q116895610",
+        "name": "ProSpánek",
         "shop": "bed"
       }
     },
@@ -358,6 +472,7 @@
       "tags": {
         "brand": "Sleep Country",
         "brand:wikidata": "Q7539684",
+        "mattress": "yes",
         "name": "Sleep Country",
         "shop": "bed"
       }
@@ -435,6 +550,16 @@
       }
     },
     {
+      "displayName": "Tempur",
+      "id": "tempur-ee7d57",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "brand": "Tempur",
+        "name": "Tempur",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Tempur-Pedic",
       "id": "tempurpedic-032196",
       "locationSet": {"include": ["us"]},
@@ -442,6 +567,17 @@
         "brand": "Tempur-Pedic",
         "brand:wikidata": "Q1756920",
         "name": "Tempur-Pedic",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "The Bed Shop",
+      "id": "thebedshop-d8cd0b",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "The Bed Shop",
+        "brand:wikidata": "Q129571574",
+        "name": "The Bed Shop",
         "shop": "bed"
       }
     },
@@ -487,6 +623,17 @@
         "brand": "Yatsan",
         "brand:wikidata": "Q106803959",
         "name": "Yatsan",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Світ Матраців",
+      "id": "7bb5ad-ee9b7c",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "brand": "Світ Матраців",
+        "brand:wikidata": "Q136141983",
+        "name": "Світ Матраців",
         "shop": "bed"
       }
     }

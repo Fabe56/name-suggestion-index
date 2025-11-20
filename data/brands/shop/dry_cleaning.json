@@ -22,6 +22,16 @@
       }
     },
     {
+      "displayName": "Apetta",
+      "id": "apetta-1a9348",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Apetta",
+        "name": "Apetta",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
       "displayName": "CD One Price Cleaners",
       "id": "cdonepricecleaners-1b6f6c",
       "locationSet": {"include": ["us"]},
@@ -73,6 +83,17 @@
       }
     },
     {
+      "displayName": "Kunz Pressing",
+      "id": "kunzpressing-3d5050",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Kunz Pressing",
+        "brand:wikidata": "Q134837723",
+        "name": "Kunz Pressing",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
       "displayName": "Martinizing Dry Cleaning",
       "id": "martinizingdrycleaning-e2c813",
       "locationSet": {"include": ["001"]},
@@ -80,6 +101,16 @@
         "brand": "Martinizing Dry Cleaning",
         "brand:wikidata": "Q6777169",
         "name": "Martinizing Dry Cleaning",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
+      "displayName": "SneakNFresh",
+      "id": "sneaknfresh-1a9348",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "SneakNFresh",
+        "name": "SneakNFresh",
         "shop": "dry_cleaning"
       }
     },
@@ -115,6 +146,16 @@
         "brand": "Диана",
         "brand:wikidata": "Q62105088",
         "name": "Диана",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
+      "displayName": "Лотос",
+      "id": "4712c3-1a9348",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Лотос",
+        "name": "Лотос",
         "shop": "dry_cleaning"
       }
     },
